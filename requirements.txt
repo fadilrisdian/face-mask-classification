@@ -1,0 +1,5 @@
+torch
+torchvision
+streamlit==1.12.2
+urllib3
+pillow==9.2.0
