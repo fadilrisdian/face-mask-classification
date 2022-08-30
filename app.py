@@ -15,7 +15,9 @@ image_url = st.text_input('Enter Face Image URL to classify.. ',
 
 urllib.request.urlretrieve(image_url, "image.png")
 
-model = torch.load("model.pt")
+# device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+# model = torch.load("model1.pt")
+model = torch.load('model1.pt', map_location=torch.device('cpu'))
 result = predict(model, 'image.png')
 
 st.image(result[0])
