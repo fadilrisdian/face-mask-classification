@@ -3,6 +3,8 @@
 
 ### Run app without docker
 
+![image](https://user-images.githubusercontent.com/105907083/187399808-ae63dd4e-20d5-45f6-ae9b-cc35a6c1387a.png)
+
 ```
 git clone https://github.com/fadilrisdian/face-mask-classification
 cd face-mask-classification
